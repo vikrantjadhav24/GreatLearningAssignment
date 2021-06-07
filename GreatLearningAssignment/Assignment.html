@@ -1,0 +1,261 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Assignment</title>
+	<meta charset="utf-8">
+ 	<meta content="width=device-width, initial-scale=1" name="viewport" />
+ 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="Assignment.css">
+  	<script src="Assignment.js"></script>
+</head>
+<body>
+
+	<!-- Banner Section -->
+
+	<div id="bnrSection" class="bnr__background container">
+		<div class="overlay__forbnr"></div>
+			<div  class="">
+				<a href="#Assignment.html" class="greatlearning__logoholder">
+					<img src="gl-logo-white.png" class="logo">
+				</a>
+			</div>
+			<div class="col-md-12 bnralignment__mob">
+				<div class="col-md-7 text__container">
+					<h1 class="bnr__maintxt">PG Program in <br> Data Science and Business Analytics</h1>
+					<p class="bnr__description">Learn Data Science, Business Analytics with India's #1 <br> course and power ahead in your career </p>
+					<p class="membership__duration">11 Months | Online Membership</p>
+				</div>
+				<div class="col-md-5 form__container">
+					<form class="getstarted__form" name="getStartedForm" onsubmit="return formValidation()" method="post">
+						<h2 class="form__heading">Get Started Now </h2>
+						<input id="name" placeholder="Name" class="form__inputfield" type="text" name="name" >
+						<input id="email" placeholder="Email" class="form__inputfield" type="email" name="email">
+						<input id="phoneNumber" placeholder="Mobile Number" class="form__inputfield" type="tel" name="phoneNumber">
+						<input id="workExeperience" placeholder="Work Experience" class="form__inputfield" type="text" name="workExeperience">
+						<select id="currentOrganization" placeholder="Current Organization" class="form__inputfield" name="currentOrganization">
+							<option>Current Organization</option>
+							<option>Training</option>
+							<option>Software</option>
+							<option>Other</option>
+						</select>
+						<div class="form__checkboxholder">	
+							<input type="checkbox" name="greatlearningform" required><span class="checkbox__textholder"> I authorize a Great Learning representative to contact me about my interest in the program</span>
+						</div>
+						<input class="form__button" value="Apply Now" type="submit" onclick="storeValues()">
+
+					</form>
+
+				</div>
+			</div>
+		</div>
+		<div id="sticky-anchor"></div>
+
+
+
+
+		<!-- Why learn from great learning section -->
+
+		<div class="">
+			<h2 class="title__holder whylearntitle__holder">Why learn from great learning</h2>
+			<div class="text-center video__holder">
+				<iframe width="680" height="390" src="https://www.youtube.com/embed/c64BuiED4Mg" title="Virat Kohli YouTube video" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" frameborder="0"  allowfullscreen></iframe>
+			</div>
+		</div>
+
+		<!-- Icons holder section -->
+
+		<div class="col-md-12 icon__holder">
+			<div class="col-md-4 iconandtext__alignment">
+				<div>
+					<span class="common__iconcss comprehensiveicon__holder"></span>
+					<span class="icontext__holder">Comprehensive<br>Curriculum</span> 
+				</div>
+			</div>
+			<div class="col-md-4 iconandtext__alignment">
+				<div>
+					<span class="common__iconcss personalisedicon__holder"></span>
+					<span class="icontext__holder">Personalised<br>Mentorship</span> 
+				</div>
+			</div>
+			<div class="col-md-4 iconandtext__alignment">
+				<div>
+					<span class="common__iconcss dedicatedicon__holder"></span>
+					<span class="icontext__holder">Dedicated Career<br>Assistance</span> 
+				</div>
+			</div>
+		</div>
+		
+
+		<!-- Curriculum Snapshot section -->
+
+		<div class="col-md-12 curriculum__background">
+			<h2 class="title__holder Curriculumtitle__holder">Curriculum Snapshot</h2>
+		</div>
+		<div class="col-md-12 curriculum__widthholder">
+			<button class="accordion"> Introduction to Data Science</button>
+			<div class="panel">
+			  <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+			</div>
+
+			<button class="accordion">Business Finance</button>
+			<div class="panel">
+			  <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+			</div>
+
+			<button class="accordion">Marketing And CRM</button>
+			<div class="panel">
+			  <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+			</div>
+
+			<button class="accordion">SQL Programming</button>
+			<div class="panel">
+			  <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+			</div>
+
+			<button class="accordion">Advance Statistics</button>
+			<div class="panel">
+			  <p>JavaScript, often abbreviated as JS, is a programming language that conforms to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and multi-paradigm. It has curly-bracket syntax, dynamic typing, prototype-based object-orientation, and first-class functions.</p>
+			</div>
+		</div>
+
+
+		<!-- Learning Outcome section -->
+
+		<div class="col-md-12 ">
+			<div class="container">
+				<h2 class="title__holder learningtitle__holder">Learning Outcome</h2>
+				<span class="learning__subheading">Aquire a design thinking mindset, so that you can translate your learnings during the course to drive innovation in your company</span>
+				<div class="iconsholder__mob">
+					<div class="col-md-6 padding__none">
+
+						<div class="learning__content">
+							<span class="learning__descriptionone learning__description">Develop viable solutions to user challenges using the design thinking and hypothesis-driven innovation processes</span>
+						</div>
+						<div class="learning__content">
+							<span class="learning__descriptiontwo learning__description">Gain user empathy through observation and interviewing, and develop user insights to identify unmet needs.</span>
+						</div>
+						<div class="learning__content">
+							<span class="learning__descriptionthree learning__description">Use multiple brainstorming techniques to find innovation solutions.</span>
+						</div>
+						<div class="learning__content">
+							<span class="learning__descriptionfour learning__description">Prototype a solution to a user challenge</span>
+						</div>
+						<div class="learning__content">
+							<span class="learning__descriptionfive learning__description">Develop and test a business model or business case to support the viability of the solution</span>
+						</div>
+					</div>
+
+					<div class="col-md-6">
+						<img src="laptop.png" class="laptopimage__holder">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<!-- Testimonials section -->
+
+		<div id="#testimonialsSection" class="col-md-12 testi__paddingholder"> 
+			<h2 class="title__holder testimonialtitle__holder">Testimonials</h2>
+			<div class="container testimonials__widthholder">
+    		<div class="slider">
+
+		      <div class="slide active-slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-12 text-center">
+		              <p class="testimonials__descholder testi__content">I have already used this on one project at work, and my boss has already asked me to make a similar prototype for another project. I also feel like if I ever were to try starting my own company that my chances of success just went up a lot.</p>
+		              <h4 class="testimonials__nameholder">Senior Director, Business Development <br>
+		                    (Software Industry)</h4>
+		           
+		            </div>
+		          </div>
+		        </div>      
+		      </div>
+
+		      <div class="slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-12 text-center">
+		              <p class="testimonials__descholder testi__content">I also feel like if I ever were to try starting my own company that my chances of success just went up a lot. I have already used this on one project at work, and my boss has already asked me to make a similar prototype for another project.</p>
+		              <h4 class="testimonials__nameholder">Senior Director, Business Development <br>
+		                    (Software Industry)</h4>
+		           
+		            </div>
+		          </div>
+		        </div>       
+		      </div> 
+
+		      <div class="slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-12 text-center">
+		              <p class="testimonials__descholder testi__content">I have already used this on one project at work, and my boss has already asked me to make a similar prototype for another project. I also feel like if I ever were to try starting my own company that my chances of success just went up a lot.</p>
+		              <h4 class="testimonials__nameholder">Senior Director, Business Development <br>
+		                    (Software Industry)</h4>
+		           
+		            </div>
+		          </div>
+		        </div>      
+		      </div> 
+
+
+		      <div class="slide">
+		        <div class="container">
+		          <div class="row">
+		            <div class="slide-copy col-xs-12 text-center">
+		              <p class="testimonials__descholder testi__content">I also feel like if I ever were to try starting my own company that my chances of success just went up a lot. I have already used this on one project at work, and my boss has already asked me to make a similar prototype for another project.</p>
+		              <h4 class="testimonials__nameholder">Senior Director, Business Development <br>
+		                    (Software Industry)</h4>
+		           
+		            </div>
+		          </div>
+		        </div>      
+		      </div> 
+
+		    </div>
+
+		    <div class="slider-nav">
+		      <a href="#testimonialsSection" class="arrow-prev">
+	      		<img src="arrow.png" class="arrownext__holder">
+		      </a>
+		      <a href="#testimonialsSection" class="arrow-next">
+		      	<img src="arrow.png" class="arrowprev__holder">
+		      </a>
+		    </div> 
+		</div>
+
+
+			<!-- Footer section -->
+
+		<div class="col-md-12 ftrdescription__holder">
+			<span class="ftr__description">Great Learning is an Ed- Tech company that offers programs in career critical competencies such as Analytics, Data Science, Artificial intelligence, Cloud Computing, Cybersecurity, Full Stack Development and much more. Over 10000 professionals have taken Great Learning programs and it has already delivered over 5 million hours of learning.</span>
+		</div>
+		<div id="sticky" class="sticky">
+			<div class="col-md-12 bottom__bg text-center stick">
+				<span class="ftr__text">Explore this game changing opportunity</span>
+				<button  class="ftr_buttonholder"><a href="#bnrSection" class="ftr_button">
+				Apply Now</a></button>
+			</div>
+		</div>
+	<script>
+		var acc = document.getElementsByClassName("accordion");
+		var i;
+
+		for (i = 0; i < acc.length; i++) {
+		  	acc[i].addEventListener("click", function() {
+		    this.classList.toggle("active");
+		    var panel = this.nextElementSibling;
+		    if (panel.style.display === "block") {
+		      panel.style.display = "none";
+		    } else {
+		      panel.style.display = "block";
+		    }
+	  		});
+		}
+	</script>
+</body>
+</html>
